@@ -11,7 +11,7 @@ import numpy as np
 #from sklearn.svm import SVC
 import csv
 import warnings
-from sklearn.ensemble import RandomForestClassifier
+#from sklearn.ensemble import RandomForestClassifier
 
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
